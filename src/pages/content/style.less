@@ -1,0 +1,26 @@
+#tooltip {
+  display: none;
+}
+
+#tooltip[data-show] {
+  display: block;
+  z-index: 999;
+  background: #fff;
+  min-width: 200px;
+  max-width: 500px;
+  max-height: 200px;
+  font-size: 14px;
+  border: 1px solid #1e80ff;
+  padding: 16px;
+  border-radius: 4px;
+  overflow-y: auto;
+}
+
+.sentence-item {
+  padding: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background: #f4f5f5;
+  }
+}
